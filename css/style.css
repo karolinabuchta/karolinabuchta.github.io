@@ -1,0 +1,337 @@
+/*all*/
+body {
+	margin: 0;
+	
+
+}
+
+h3 { 
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+font-size: 2em;
+margin: 20px;
+margin-top: 50px;
+text-align: center;
+}
+
+.copy {
+	font-style: italic;
+	color: gray;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+h2 {
+	font-size: 4em;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+
+
+
+h1 {
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+/*all stop*/
+
+
+
+
+/*menu start*/
+
+/* font nav bar */
+
+.navbar-default .navbar-brand {
+	font-style: italic;
+	font-family: 'Droid Serif', serif;
+	font-weight:  300; 
+	font-size: 18px;
+	color: #fff;
+	position: fixed;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #fff;
+}
+
+.menu-item {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+
+/*nav bar*/
+
+.navbar-default
+{
+	background-color: transparent;
+}
+
+.navbar{
+	border: 1px;
+	margin-bottom: 0px; 
+} 
+
+/*nav bar scroll*/
+
+.main-nav .scroll {
+	position: fixed;
+	background-color: #FFFFFF;
+	width: 100%;
+	z-index: 10;
+}
+
+
+.main-nav .scroll ul .menu-item a {
+	color: #1ac056;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.main-nav ul .scroll .menu-item a:hover {
+	color: #291f1a
+}
+
+/* menu stop*/
+
+
+
+/* main header*/
+
+
+#main-header {
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/header/pictures_on_the_wall.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.header-caption {
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	font-weight: 700;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+
+
+/* button */
+
+.btn-default { 
+background-color: #0ed8d6;
+font-family: 'Montserrat', sans-serif;
+color: #fff;
+text-transform: uppercase;
+border: 0;
+margin: 30px;
+}
+
+/* button stop */
+
+/*start services*/
+
+
+#services {
+	text-align: center;
+	height: 30%;
+	margin: 10px;
+}
+
+#icon {
+	color:white;
+	background-color: #0ed8d6;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	margin: 30px;
+}
+
+#icon{ 
+  @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+}
+
+h4 { 
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+/*stop servies*/
+
+/*start portfolio*/
+
+
+#main_folio{ 
+background-color: #EEEBEB;
+
+}
+
+#folio {
+	text-align: center;
+}
+
+
+
+.container2 {
+/*
+height: 360px;
+width: 300px;
+*/
+background: #fff;
+margin: 10px;
+}
+
+.img { 
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.img:hover {
+	transform: scale(1.3);
+	transition: all .4s;
+}
+
+.mask:hover {
+	opacity: 1;
+}
+
+.mask {
+	background-color:rgba(14, 216, 214, 0.85);
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	transition: all .3s;
+	text-align: center;
+	font-size: 2em;
+	line-height: 300px;
+
+}
+
+
+.border {
+background-color: transparent;
+overflow: hidden;
+height: 300px;
+}
+
+
+
+i {
+	color: #fff;
+	font-size: 4em;
+	
+}
+
+
+
+.copy1 {
+text-align: center;
+}
+
+/*zdjęcia start*/
+
+#folio_img1 { 
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+	
+}
+#folio_img2 {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/portfolio/typing_on_laptop.jpg);
+	
+}
+#folio_img3{ 
+	background-size: cover;
+	background-position: center;
+	background-image: 	url(../img/portfolio/child_with_blue_paint.jpg);
+}
+#folio_img4{
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/portfolio/chaotic_paint.jpg);
+	
+}
+#folio_img5{
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+#folio_img6{ 
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+
+/*zdjęcia stop*/
+
+
+
+/*stop portfoli*/
+
+/*start team */
+.img-circle{
+	height: 200px;
+	width: 200px;
+}
+
+#col_team{
+	text-align: center;
+}
+
+#social-media{
+	color:white;
+	border: 1px solid #fff;
+	background-color: #000;
+	height: 35px;
+	width: 35px;
+	transition: all .3s;
+	border-radius: 100%;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 7px;
+	
+	
+}
+
+#social-media:hover {
+	color: #FFF;
+	background-color: rgb(14, 216, 214);
+	
+}
+
+
+/*stop team */
+
+
+/*start formularz*/
+
+#footer_buttont{
+	text-align: left;
+}
+/*stop formularz*/
+
