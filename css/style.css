@@ -128,7 +128,7 @@ h1 {
 
 /* button */
 
-.btn-default { 
+#button { 
 background-color: #0ed8d6;
 font-family: 'Montserrat', sans-serif;
 color: #fff;
@@ -179,6 +179,10 @@ h4 {
 
 /*start portfolio*/
 
+
+#services {
+height: 600px;	
+}
 
 #main_folio{ 
 background-color: #EEEBEB;
@@ -293,6 +297,11 @@ text-align: center;
 /*stop portfoli*/
 
 /*start team */
+
+#main_team {
+	height: 600px;
+}
+
 .img-circle{
 	height: 200px;
 	width: 200px;
@@ -324,13 +333,53 @@ text-align: center;
 	
 }
 
+.copy {
+	margin: 30px;
+
+}
+
+#main_folio {
+	height: 1050px;
+}
 
 /*stop team */
 
 
 /*start formularz*/
 
-#footer_buttont{
+
+#main_form {
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/footer/world-map.jpg);
+	background-size: 100%;
+	
+	position: relative;
+	
+}
+
+#main_form { 
+padding-top: 60px
+}
+
+input {
+	width:  90%;
+	height: 40px;
+	margin-left: 40px;
+}
+
+textarea {
+	width: 90%;
+	height: 160px;
+	
+}
+
+
+.center {
+	margin-left: 40%
+}
+
+
+
+#footer_button1{
 	text-align: left;
 }
 /*stop formularz*/
